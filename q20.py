@@ -1,0 +1,5 @@
+third_term=int(input("3rd Term: "))
+third_lastterm=int(input("3rd Last Term: "))
+series_sum=int(input("Enter sum: "))
+length=int(2*series_sum/(third_term+third_lastterm))
+print(length)
